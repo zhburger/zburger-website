@@ -1,0 +1,85 @@
+.subscribe-button {
+    /*对按钮的样式修改*/
+    background-color: rgb(199, 9, 9);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px; /*使按钮的边角变得圆滑 */
+    cursor: pointer; /*鼠标变成手型*/ 
+    margin-right: 8px; /*用于调整按钮间距*/
+    margin-left: 8px;
+    vertical-align: top;
+    transition: opacity 0.15s,padding 0.2s, margin 0.2s;/*实现缓慢变化的效果*/
+}
+.subscribe-button:hover{ /*设置鼠标悬停时按钮变化*/ /*这里用到opacity（不透明度）*/
+    opacity: 0.7;/*默认为1*/
+   
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right:3px;
+    margin-left:3px;
+}
+.subscribe-button:active{ /*设置鼠标点击时按钮变化*/
+    opacity:0.5;
+}
+.join-button{
+    background-color:white;
+    color: rgb(5, 78, 250);
+    border-color: rgb(5, 78, 250);
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 8px;
+    vertical-align: top;
+    transition: background-color  0.2s,color  0.2s, opacity 0.2s;
+    }
+.join-button:hover{
+    background-color: rgb(5, 78, 250);
+    color: white;
+}
+.join-button:active{
+    opacity:0.7;
+}
+.tweet-button{
+    background-color:rgb(0, 157, 255);
+    color:white;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 18px;
+    font-weight:bold;
+    font-size:15px;
+    cursor: pointer;
+    transition: box-shadow 0.2s,opacity 0.2s;
+}
+.tweet-button:hover{
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+.tweet-button:active{
+    opacity:0.7;
+    margin-top:5px;
+    box-shadow:none;
+}
+.link{
+    color: rgb(0, 157, 255);
+    font-weight:bold;
+    font-size: 15px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+.link:hover{
+    opacity: 0.7;
+    }
+.introduction{
+    font-size:large;
+}

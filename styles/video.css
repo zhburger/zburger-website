@@ -1,0 +1,52 @@
+.thumbnail{
+    width:100%;
+   }
+
+   .video-title{
+    margin-top:0px;
+    font-weight:500;
+    font-size: 16px;
+    line-height:22px;
+   }
+
+   .author{
+    margin-bottom:0px;
+    color:grey;
+   }
+
+   .video-stats{
+    margin-top:5px;
+    color:grey;
+   }
+
+   .head{
+    border-radius:50%;
+    width:40px;
+   }
+
+   .thumbnail-rows{
+    margin-bottom:12px;
+    position:relative;
+   }
+   .video-time{
+    font-size:12px;
+    font-weight:500;
+    font-family:Roboto;
+    position:absolute;
+    background-color:black;
+    color:white;
+    right:5px;;
+    bottom:10px;
+    padding:3px;
+    border-radius:3px;
+   }
+   .video-time{
+    pointer-events:none;
+   }
+   div{
+    font-family:Roboto;
+   }
+   a{
+    color:black;
+    text-decoration:none;
+    }
